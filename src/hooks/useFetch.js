@@ -10,6 +10,7 @@ export function useFetch(url) {
     setError(null);
     setLoading(true);
     setData(null);
+
     const handleFetch = async () => {
       try {
         const response = await fetch(url, { signal: fetchController.signal });
