@@ -14,7 +14,7 @@ import NotFoundPage from "./components/NotFoundPage";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/Entertainment-web-app">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
