@@ -1026,6 +1026,7 @@ section {
   }
   .not-found-wrapper {
     width: 100%;
+    padding: 20px;
   }
   .not-found-wrapper h1 {
     font-size: 25px;
@@ -1050,7 +1051,7 @@ section {
     font-size: 14px;
   }
   .info-wrapper .genres span {
-    font-size: 14px;
+    font-size: 12px;
     padding: 3px 10px;
   }
   .info-wrapper .show-overview {
